@@ -10,7 +10,7 @@ $(document).ready(function(){
      "serverSide" : true,
      "order" : [],
      "ajax" : {
-      url:"datos2.php",
+      url:"http://lhol-itp-sd-02.epizy.com/datos2.php",
       type:"POST"
      }
     });
@@ -18,7 +18,7 @@ $(document).ready(function(){
     $('#car').on('draw.dt', function(){
    
      $('#car').Tabledit({
-      url:'edicion2.php',
+      url:'http://lhol-itp-sd-02.epizy.com/edicion2.php.php',
       dataType:'json',
       columns:{
        identifier : [0, 'idcar'],
@@ -53,7 +53,7 @@ $(document).ready(function(){
        $.ajax({
            method: 'POST',
            dataType: "html",
-           url: "insertRegister2.php",
+           url: "http://lhol-itp-sd-02.epizy.com/insertRegister2.php",
            data: "id="+nom+"&modelo="+ap+"&marca="+carg,
            success: function(r){
                if (r == '200') { // Si el php anterior, imprimió 200
