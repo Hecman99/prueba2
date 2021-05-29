@@ -11,7 +11,7 @@ $(document).ready(function(){
      "order" : [],
      "ajax" : {
       url:"https://itp-sd.site/hll/Steam%20API/api%20files/showgames.php",
-      type:"POST"
+      type:"GET"
      }
     });
    
