@@ -10,7 +10,7 @@ $(document).ready(function(){
      "serverSide" : true,
      "order" : [],
      "ajax" : {
-      url:"http://lhol-itp-sd-02.epizy.com/datos2.php",
+      url:"https://itp-sd.site/hll/Steam%20API/api%20files/showgames.php",
       type:"POST"
      }
     });
